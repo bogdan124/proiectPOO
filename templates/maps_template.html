@@ -1,0 +1,59 @@
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/perliedman-leaflet-control-geocoder/2.1.0/Control.Geocoder.min.css" integrity="sha512-XK7G+iGsTdf8/PmVD9/ju65AxCIOaUZly1lY8r9jCNrXO5rGzT2lMYCySGEhb/v8XYXybsZUztXvRdGSyxu/3A==" crossorigin="anonymous" />
+<link rel="stylesheet" href="../static/css/style.css"/>
+
+  <div class="left-page">
+      <div class="my-card">
+          <div class="profile-text">
+              <img class="ui medium circular image my-image" src="https://scontent.fotp3-2.fna.fbcdn.net/v/t1.0-9/90775756_1656782327805962_815249870125268992_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_ohc=Sz9s8geVetIAX_cS9cS&_nc_ht=scontent.fotp3-2.fna&oh=cbc1500951c8e2f71d74d187018c2732&oe=602030F8"/>
+              <div class="prof-content">
+                    <span class="user-name">Bogdan</span><!--<br/>
+                    <button class="ui primary button">Logout</button>-->
+              </div>
+
+          </div>
+
+      </div>
+      <div class="my-card date-card">
+          <b>Diabet </b> <span class="diabet-user"></span>
+      </div>
+
+       <div class="my-card date-card">
+            <b>Pulse</b> <div id="heart"><span class="pulse-card-profile"></span></div>
+      </div>
+        <div class="my-card date-card">
+            <b>Date</b> <span class="date-card-profile"></span>
+      </div>
+      <div class="my-card lat-card">
+            <b>Latitude</b> <span class="lat-card-profile"></span>
+      </div>
+      <div class="my-card lon-card">
+            <b>Longitude</b> <span class="lon-card-profile"></span>
+      </div>
+      <div class="my-card altitude-card">
+            <b>Altitude</b> <span class="altitude-card-profile"></span>
+      </div>
+      <div class="my-card speed-card">
+            <b>Speed</b> <span class="speed-card-profile"></span>
+      </div>
+
+      <div class="my-card satellites-card">
+            <b>Satellites</b> <span class="satellites-card-profile"></span>
+      </div>
+  </div>
+  <div id="mapid"></div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/perliedman-leaflet-control-geocoder/2.1.0/Control.Geocoder.min.js" integrity="sha512-om2lbFibjXmte7C8BK5Pgx2/keKB8Dywi5iRg/7ZPfTFQvGwUlilBflOPRaoj/Nm8UlF9VpzXq2DRI8f2SlBrw==" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+ <script src="../static/js/main.js"></script>
